@@ -65,7 +65,7 @@
     text-align: center;
     cursor: pointer;
     text-align: center;
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .cards {
