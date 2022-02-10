@@ -24,7 +24,7 @@
     color: var(--secondary-color);
 }
 
-.header-kanak-home>div>button {
+.header-kanak-home > div > button {
     width: 7rem;
 }
 
@@ -58,7 +58,7 @@
     border-radius: var(--chosen-border-radius);
 }
 
-.search-holder>form>label {
+.search-holder > form > label {
     position: absolute;
     top: 0;
     right: 1rem;
