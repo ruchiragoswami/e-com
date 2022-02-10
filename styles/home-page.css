@@ -1,0 +1,96 @@
+.wrapper-kanak-home {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.header-kanak-home {
+    background-color: var(--primary-color);
+    width: auto;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--default-color);
+}
+
+.logo {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    font-family: cursive;    
+}
+
+.logo:hover {
+    color: var(--secondary-color);
+}
+
+.header-kanak-home > div > button {
+    width: 7rem;
+}
+
+.icon-holder {
+    text-align: center;
+    margin: auto 1rem;
+}
+
+.custom-icon {
+    font-size: 2.5rem;
+    color: var(--default-color);
+}
+
+.cart-icon {
+    margin: 0 auto;
+    text-align: center;
+    width: 2.6rem;
+}
+
+.search-holder {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search {
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 1rem 0.5rem;
+    border-radius: var(--chosen-border-radius);
+}
+
+.search-holder > form > label {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.cards {
+    width: 250px;
+    height: 95%;
+}
+
+.grid-three {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 790px) {
+    .cards>button {
+        width: auto;
+    }
+
+    .header-kanak-home {
+        display: block;
+    }
+
+    .search-holder>form>label {
+        position: static;
+    }
+
+    .button-holder {
+        margin-top: 1rem;
+    }
+}
