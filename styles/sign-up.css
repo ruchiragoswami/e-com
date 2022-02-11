@@ -1,0 +1,35 @@
+.all-headings {
+    font-size: 3rem;
+}
+
+.btn-container {
+    margin-top: 2rem;
+}
+
+
+.container-password-icon {
+    position: relative;
+}
+
+.icon-crossed-eye {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding-bottom: 0.5rem;
+    background: transparent;
+}
+
+.container-reset-link>label,
+.container-reset-link>a {
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.container-reset-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

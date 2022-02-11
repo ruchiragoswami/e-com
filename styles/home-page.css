@@ -24,6 +24,8 @@
     color: var(--secondary-color);
 }
 
+.custom-button,
+.header-kanak-home > div > a > button,
 .header-kanak-home > div > button {
     width: 7rem;
 }
@@ -61,11 +63,16 @@
 .search-holder > form > label {
     position: absolute;
     top: 0;
-    right: 1rem;
+    left: 0;
     text-align: center;
     cursor: pointer;
     text-align: center;
-    color: var(--secondary-color);
+    padding-left: 0.5rem; 
+    color: var(--primary-color);
+}
+
+#search::placeholder {
+    padding: 2rem;
 }
 
 .cards {
@@ -78,16 +85,16 @@
 }
 
 @media screen and (max-width: 790px) {
-    .cards>button {
+    .cards > button {
         width: auto;
     }
 
     .header-kanak-home {
-        display: block;
+        display: block;       
     }
 
-    .search-holder>form>label {
-        position: static;
+    .search-holder > form > label {    
+        display: none;       
     }
 
     .button-holder {

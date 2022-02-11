@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login | Kanak </title>
+    <link rel="stylesheet" href=" https://thinzy.netlify.app/for-import/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="wrapper-kanak-home">
+        <header class="header-kanak-home">
+            <div class="logo">
+                <a href="../index.html">
+                    <h2> Kanak </h2>
+                </a>
+            </div>
+
+            <div class="search-holder">
+                <form action="">
+                    <input id="search" type="search" placeholder="Search products" />
+                    <label for="search" class="fa fa-search"> </label>
+                </form>
+            </div>
+
+            <!-- This comment is intentional- requirements say that we need to have a logout button in header, but I don't see the point of this button till the user is actually logged in. I will leave this comment till I get clarity on this. 
+
+            <div class="button-holder">
+                 <button class="btn btn-primary-outlined btn-for-hover custom-button"> Logout </button>
+                
+            </div>  -->
+
+            <div class="button-holder">
+                <a href="./sign-up.html"> <button class="btn btn-primary-outlined btn-for-hover"> Sign Up</button>
+                </a>
+            </div>
+
+            <div class="icon-holder">
+                <span class="material-icons-outlined custom-icon"> favorite_border </span>
+            </div>
+
+            <div class="icon-holder">
+                <span class="material-icons-outlined custom-icon cart-icon">
+                    shopping_cart_border
+                </span>
+            </div>
+        </header>
+
+        <main>
+            <h1 class="all-headings"> Login </h1>
+
+            <form action="" class="sec-for-input">
+                <div class="">
+                    <div class="input-group">
+                        <label for="username">Email * </label>
+                        <input id="username" type="email">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="login-password">Password * </label>
+                        <input id="login-password" type="password">  
+
+                        <div class="container-reset-link">
+                            <label for="remember-me"> <input id="remember-me" type="checkbox"> Remember me </label>
+                            <a href="#0"> Forgot Password </a>
+                        </div>                      
+                    </div>                   
+                </div>
+            </form>
+
+            <div class="btn-container">
+                <a href="#0"> <button class="btn btn-primary btn-for-hover"> Login </button> </a>
+            </div>
+            <div class="btn-container">
+                <a href="./sign-up.html" class="btn btn-link btn-for-hover">
+                    Create New Account
+                </a>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
