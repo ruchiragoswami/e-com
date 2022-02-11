@@ -21,11 +21,15 @@
 }
 
 .container-reset-link>label,
-.container-reset-link>a {
+.password-reset-link {
     font-size: 0.9rem;
     font-weight: 800;
     margin: 1rem 0;
     text-align: left;
+}
+
+.password-reset-link {
+    color: var(--primary-color);
 }
 
 .container-reset-link {
