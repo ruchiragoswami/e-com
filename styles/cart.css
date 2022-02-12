@@ -1,9 +1,13 @@
+.wrapper-cart {
+    /* max-width: 1200px; */
+}
+
 .cart-page-grid>section {
     margin: 0;
 }
 
 .checkout-items>.cards {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;   
     height: auto;
 }
 
@@ -62,7 +66,7 @@
 
 .price-details {
     background-color: var(--info-color);
-    padding-top: 1rem;
+    padding: 1rem 0.5rem;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +79,7 @@
     margin-left: auto;
     margin-right: auto;
     line-height: 1.9rem;
-    margin-top: 2rem;
+    margin-top: 2rem;           
 }
 
 .table-order-details>caption {
@@ -100,18 +104,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    .checkout-items>.cards {
-        width: 80%;
-        height: 45rem;
-    }
-}
-
-@media screen and (min-width: 675px) {
-    .checkout-items>.cards {
-        width: 80%;
-        height: 50rem;
-    }
 }
 
 @media screen and (min-width: 740px) {
@@ -122,11 +114,10 @@
     }
 
     .price-details {
-        width: 80%;
-        height: 30rem;
+        width: 80%;        
     }
 
-    .checkout-items>.cards {
-        height: 40rem;
+    .checkout-items>.cards {        
+        width: 70%;
     }
 }

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List | Kanak </title>
+    <link rel="stylesheet" href=" https://thinzy.netlify.app/for-import/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="wrapper-kanak-home">
+        <header class="header-kanak-home">
+            <div class="logo">
+                <a href="../index.html">
+                    <h2> Kanak </h2>
+                </a>
+            </div>
+
+            <div class="search-holder">
+                <form action="">
+                    <input id="search" type="search" placeholder="Search products" />
+                    <label for="search" class="fa fa-search"> </label>
+                </form>
+            </div>
+
+            <div class="button-holder">
+                <button class="btn btn-primary-outlined btn-for-hover custom-button"> Logout </button>
+            </div>
+
+            <div class="icon-holder">
+                <a href="./wishlist.html"> <span class="material-icons-outlined custom-icon"> favorite_border </span>
+                </a>
+            </div>
+
+            <div class="icon-holder">
+                <a href="./cart.html">
+                    <span class="material-icons-outlined custom-icon cart-icon">
+                        shopping_cart_border
+                    </span>
+                </a>
+            </div>
+        </header>
+
+
+        <main>
+            <h2 class="all-headings"> All Products </h2>
+            <div class="products-page-grid">
+
+                <aside class="sidebar-filters" >
+                    <div class="head-filters">
+                        <h2> Filters </h2>
+                        <button class="btn btn-accent-outlined btn-for-hover btn-clear-filter"> Clear </button>
+                    </div>
+
+
+
+                    <div class="product-filters">
+                        <h3> Price </h3>
+                        <section class="container-slider">
+                            <label for="slider-first" class="slider-label"> Select </label>
+                            <span> 1 </span>
+                            <input id="slider-first" class="slider" type="range" min="1" max="100" value="40">
+                            <span> 100 </span>
+                        </section>
+                    </div>
+
+                    <div class="product-filters">
+                        <h3> Category </h3>
+                        <section>
+                            <label for="necklace"> <input type="checkbox" id="necklace" name="necklace"
+                                    value="necklace" />
+                                Necklace
+                            </label>
+
+                            <label for="earrings"> <input type="checkbox" id="earrings" name="earrings"
+                                    value="earrings" />
+                                Earrings
+                            </label>
+
+                            <label for="bangles"> <input type="checkbox" id="bangles" name="bangles" value="bangles" />
+                                Bangles
+                            </label>
+
+                            <label for="rings"> <input type="checkbox" id="rings" name="rings" value="rings" /> Rings
+                            </label>
+
+                            <label for="nose-rings"> <input type="checkbox" id="nose-rings" name="nose-rings"
+                                    value="nose-rings" /> Nose Rings
+                            </label>
+
+                            <label for="anklets"> <input type="checkbox" id="anklets" name="anklets" value="anklets" />
+                                Anklets
+                            </label>
+
+                            <label for="mangalsutra"> <input type="checkbox" id="mangalsutra" name="mangalsutra"
+                                    value="mangalsutra" /> Mangalsutra
+                            </label>
+
+                            <label for="jewelry-sets"> <input type="checkbox" id="jewelry-sets" name="jewelry-sets"
+                                    value="jewelry-sets" /> Jewelry Sets
+                            </label>
+
+                        </section>
+
+                    </div>
+
+
+                    <div class="product-filters">
+                        <h3> Rating </h3>
+                        <section>
+
+
+                            <label for="four-stars"> <input type="radio" id="four-stars" name="four-stars"
+                                    value="four-stars"> 4
+                                Stars & above</label>
+
+                            <label for="three-stars"> <input type="radio" id="three-stars" name="three-stars"
+                                    value="three-stars"> 3 Stars & above</label>
+                            <label for="two-stars"> <input type="radio" id="two-stars" name="two-stars"
+                                    value="two-stars"> 2
+                                Stars & above</label>
+                            <label for="one-stars"> <input type="radio" id="one-stars" name="one-stars"
+                                    value="one-stars"> 1
+                                Stars & above</label>
+                            <label for="any-stars"> <input type="radio" id="any-stars" name="any-stars"
+                                    value="any-stars">
+                                Any
+                                Rating</label>
+                        </section>
+                    </div>
+
+                    <div class="product-filters">
+                        <h3> Sort by </h3>
+                        <section>
+                            <label for="low-to-high"> <input type="radio" id="low-to-high" name="low-to-high"
+                                    value="low-to-high">
+                                Low to High </label>
+
+                            <label for="high-to-low"> <input type="radio" id="high-to-low" name="high-to-low"
+                                    value="high-to-low"> High to Low </label>
+                        </section>
+                    </div>
+
+                </aside>
+
+
+                
+                <div class="all-products">
+                    
+                    <section class="cards card-badge primary-border card-vertical card-shadow">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="necklace">
+                            <span class="icon-on-image icon-wish-heart icon-wish-heart "> <i class="fa fa-heart "> </i>
+                            </span>
+                            <span class="dismiss-on-card icon-wish-dismiss no-display no-display"> <i
+                                    class="fa fa-window-close"></i> </span>
+                        </div>
+                        <h2> Gold Jewelry Set</h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text">$1888</p>
+                        <button class="btn btn-primary btn-mrgn-adjusted wide-btn"> Add to Cart </button>
+                    </section>
+
+                    <section class="cards card-badge primary-border card-vertical card-shadow">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="necklace">
+                            <span class="icon-on-image icon-wish-heart icon-wish-heart"> <i class="fa fa-heart "> </i>
+                            </span>
+                            <span class="dismiss-on-card icon-wish-dismiss no-display"> <i
+                                    class="fa fa-window-close"></i>
+                            </span>
+                        </div>
+                        <h2> Gold Jewelry Set </h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text">$1888</p>
+                        <button class="btn btn-primary btn-mrgn-adjusted wide-btn"> Add to Cart </button>
+                    </section>
+
+                    <section class="cards card-badge primary-border card-vertical card-shadow">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="necklace">
+                            <span class="icon-on-image icon-wish-heart "> <i class="fa fa-heart "> </i> </span>
+                            <span class="dismiss-on-card icon-wish-dismiss no-display"> <i
+                                    class="fa fa-window-close"></i>
+                            </span>
+                        </div>
+                        <h2> Gold Jewelry Set </h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text">$1888</p>
+                        <button class="btn btn-primary btn-mrgn-adjusted wide-btn"> Add to Cart </button>
+                    </section>
+
+                    <section class="cards card-badge primary-border card-vertical card-shadow">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="necklace">
+                            <span class="icon-on-image icon-wish-heart "> <i class="fa fa-heart "> </i> </span>
+                            <span class="dismiss-on-card icon-wish-dismiss no-display"> <i
+                                    class="fa fa-window-close"></i>
+                            </span>
+                        </div>
+                        <h2> Gold Jewelry Set </h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text">$1888</p>
+                        <button class="btn btn-primary btn-mrgn-adjusted wide-btn"> Add to Cart </button>
+                    </section>
+
+                    <section class="cards card-badge primary-border card-vertical card-shadow">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="necklace">
+                            <span class="icon-on-image icon-wish-heart "> <i class="fa fa-heart "> </i> </span>
+                            <span class="dismiss-on-card icon-wish-dismiss no-display"> <i
+                                    class="fa fa-window-close"></i>
+                            </span>
+                        </div>
+                        <h2> Gold Jewelry Set </h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text">$1888</p>
+                        <button class="btn btn-primary btn-mrgn-adjusted wide-btn"> Add to Cart </button>
+                    </section>
+
+                    <section class="cards card-badge primary-border card-vertical card-shadow">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="necklace">
+                            <span class="icon-on-image icon-wish-heart "> <i class="fa fa-heart "> </i> </span>
+                            <span class="dismiss-on-card icon-wish-dismiss no-display"> <i
+                                    class="fa fa-window-close"></i>
+                            </span>
+                        </div>
+                        <h2> Gold Jewelry Set </h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text">$1888</p>
+                        <button class="btn btn-primary btn-mrgn-adjusted wide-btn"> Add to Cart </button>
+                    </section>
+
+
+                </div>
+               
+            </div>  <!-- container filter product  -->
+        </main>
+
+
+
+    </div>
+</body>
+
+</html>
