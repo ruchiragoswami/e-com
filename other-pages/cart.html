@@ -1,14 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cart | Kanak </title>
+    <link rel="stylesheet" href=" https://thinzy.netlify.app/for-import/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+
 </head>
+
 <body>
-    
-    <h1> Under Construction</h1>
-    <a href="./wishlist.html"> Go Back </a>
+    <div class="wrapper-kanak-home">
+
+        <header class="header-kanak-home">
+            <div class="logo">
+                <a href="../index.html">
+                    <h2> Kanak </h2>
+                </a>
+            </div>
+
+            <div class="search-holder">
+                <form action="">
+                    <input id="search" type="search" placeholder="Search products" />
+                    <label for="search" class="fa fa-search"> </label>
+                </form>
+            </div>
+
+            <div class="button-holder">
+                <button class="btn btn-primary-outlined btn-for-hover custom-button"> Logout </button>
+            </div>
+
+            <div class="icon-holder">
+                <a href="./wishlist.html"> <span class="material-icons-outlined custom-icon"> favorite_border </span>
+                   
+                </a>
+
+            </div>
+
+            <div class="icon-holder">
+
+                <a href="#0">
+                    <span class="material-icons-outlined custom-icon cart-icon">
+                        shopping_cart_border
+                    </span>
+                  
+                </a>
+
+            </div>
+        </header>
+
+        <main>
+            <h2> My Cart (2) </h2>
+
+            <div class="cart-page-grid">
+                <section class="checkout-items">
+
+                    <section class="cards card-badge primary-border card-vertical ">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="gold necklace">
+                        </div>
+
+                        <h2> Gold Jewelry Set</h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text card-price">$1888 <del> $2077 </del></p>
+                        <p class="txt-gry">
+                            Disocunt 10% off <br>
+                        </p>
+                        <p class="cart-card-qty"> <label for="qty"> Quantity </label>
+                            <i class="fa fa-minus"></i> <input id="qty" type="num" />
+
+                            <i class="fa fa-plus"></i>
+                            <span id="value"></span>
+                        </p>
+                        <button class="btn btn-primary-outlined btn-for-hover wide-btn"> Remove from Cart </button>
+                        <button class="btn btn-secondary-outlined btn-for-hover wide-btn "> Move to Wishlist </button>
+                    </section>
+
+                    <section class="cards card-badge primary-border card-vertical ">
+                        <div class="card-top">
+                            <img class="img-hero" src="../images/wishitem-02.jpg" alt="gold necklace">
+                        </div>
+
+                        <h2> Gold Jewelry Set</h2>
+                        <p class="card-text">Ethnic Goldwear Necklace with Earrings </p>
+                        <p class="card-text card-price">$1888 <del> $2077 </del></p>
+                        <p class="txt-gry">
+                            Disocunt 10% off <br>
+                        </p>
+                        <p class="cart-card-qty"> <label for="qty"> Quantity </label>
+                            <i class="fa fa-minus"></i> <input id="qty" type="num" />
+
+                            <i class="fa fa-plus"></i>
+                            <span id="value"></span>
+                        </p>
+                        <button class="btn btn-primary-outlined btn-for-hover wide-btn"> Remove from Cart </button>
+                        <button class="btn btn-secondary-outlined btn-for-hover wide-btn "> Move to Wishlist </button>
+                    </section>
+
+                </section>
+                <!-- checkOut items complete -->
+
+                <aside class="price-details">
+                    <table class="table-order-details">
+                        <caption> Price Details </caption>
+                        <tbody>
+                            <tr>
+                                <th>Price (1 item) </th>
+                                <td> $2077 </td>
+
+                            </tr>
+                            <tr>
+                                <th>Discount </th>
+                                <td>-$189</td>
+                            </tr>
+                            <tr>
+                                <th>Delivery Charges </th>
+                                <td>$12</td>
+                            </tr>
+
+                            <tr>
+                                <th>Total Amount </th>
+                                <td>$1900</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <p class="foot-order-details">
+                        You will save $189 on this order
+                    </p>
+                    <button class="btn btn-primary btn-for-hover wide-btn"> Place Order </button>
+                </aside>
+            </div>
+        </main>
+
+    </div>
 </body>
+
 </html>

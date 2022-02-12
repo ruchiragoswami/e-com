@@ -1,0 +1,132 @@
+.cart-page-grid>section {
+    margin: 0;
+}
+
+.checkout-items>.cards {
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.wide-btn {
+    display: block;
+    width: 80%;
+    margin: 0 auto 10px auto;
+}
+
+.icon-holder {
+    position: relative;
+}
+
+.cart-card-qty>label {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cart-card-qty>label,
+.cart-card-qty>i {
+    display: inline;
+}
+
+.cart-card-qty>input {
+    width: 2rem;
+    display: inline;
+}
+
+.fa-minus,
+.fa-plus {
+    margin: 0 0.5rem;
+    padding: 0.2rem;
+    background-color: var(--default-color);
+    border: 1px solid var(--shadow-color-light);
+    font-size: 0.8rem;
+}
+
+.card-price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+
+.card-price>del {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.txt-gry {
+    font-weight: 800;
+    color: var(--accent-color);
+}
+
+.price-details {
+    background-color: var(--info-color);
+    padding-top: 1rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-order-details {
+    width: 85%;
+    padding: 0.5rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.9rem;
+    margin-top: 2rem;
+}
+
+.table-order-details>caption {
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.table-order-details>tbody>tr:nth-child(4)>th,
+.table-order-details>tbody>tr:nth-child(4)>td {
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.foot-order-details {
+    color: var(--accent-color);
+    font-weight: 800;
+}
+
+@media screen and (min-width: 500px) {
+    .price-details {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .checkout-items>.cards {
+        width: 80%;
+        height: 45rem;
+    }
+}
+
+@media screen and (min-width: 675px) {
+    .checkout-items>.cards {
+        width: 80%;
+        height: 50rem;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .cart-page-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: ".checkout-items aside";
+    }
+
+    .price-details {
+        width: 80%;
+        height: 30rem;
+    }
+
+    .checkout-items>.cards {
+        height: 40rem;
+    }
+}
